@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import ClassComponent from './ClassComponent';
+import Home from './Home';
 
 function App() {
+  let fruits=['apple','banana','grapes']
+  console.log(fruits)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ClassComponent name='soumya' address='chennai' wicket='5' >
+        {
+          {
+            msg:'im a children prop'
+          }
+        }
+      </ClassComponent>
+      <Home fruits={fruits}> hello world</Home>
     </div>
   );
 }
