@@ -7,7 +7,7 @@ function App() {
   console.log(fruits)
   return (
     <div className="App">
-      <ClassComponent name='soumya' address='chennai' wicket='5' >
+      <ClassComponent name="soumya" address='chennai' wicket='5' >
         {
           {
             msg:'im a children prop'
