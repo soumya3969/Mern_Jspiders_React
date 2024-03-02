@@ -54,7 +54,7 @@ const ColorGenerator = () => {
                         onChange={updateColor}
                     />
                 </div>
-                <div id='displayColor' style={{ width: '100px', height: '100px', background:{bgColor}}}></div>
+                <div id='displayColor' style={{ width: '100px', height: '100px', background:bgColor}}></div>
             </div>
         </div>
     );
