@@ -1,0 +1,14 @@
+
+
+.btn{
+    border-radius: 25px;
+    width: 100px;
+    height: 70px;
+    border: 2px solid #252424;
+    font-weight: bolder;
+    transition: ease 0.5s;
+    background: #F5DD61;
+}
+.btn:hover{
+    transform: scale(1.1);
+}

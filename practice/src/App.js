@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Test/>
-      <ClassComponent name="soumya" address='bhubanesar' wicket='5'></ClassComponent>
+      {/* <ClassComponent name="soumya" address='bhubanesar' wicket='5'></ClassComponent> */}
     </div>
   );
 }

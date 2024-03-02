@@ -5,7 +5,7 @@ json = javascript object notation
 
 
 created in 2011 by facebook
- by Jorden Walke
+ by <b><i>Jorden Walke</i></b>
 
  in 2013 at Js Conference US make react Open Source.
  
