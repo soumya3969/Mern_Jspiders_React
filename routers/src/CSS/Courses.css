@@ -1,0 +1,13 @@
+
+.course-links{
+    list-style-type: none;
+    border-radius: 25px;
+    margin-top: 2rem;
+    outline: 2px solid orange;
+    box-shadow: 5px 10px 10px orange;
+}
+.child{
+    background-color: red;
+    color: white;
+    margin-top: 2rem;
+}

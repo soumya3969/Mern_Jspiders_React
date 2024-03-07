@@ -1,0 +1,11 @@
+button{
+    width: 40%;
+    height: 30px;
+    border-radius: 5rem;
+    font-size: 25px;
+    transition: ease 0.3s;
+}
+button:hover{
+    background: #252424;
+    color: aliceblue;
+}

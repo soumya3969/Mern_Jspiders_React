@@ -1,11 +1,8 @@
-import Test from "./Components/Test";
-import ClassComponent from "./Components/ClassComponent";
-
+import Main from "./Components/Main";
 function App() {
   return (
     <div className="App">
-      <Test/>
-      {/* <ClassComponent name="soumya" address='bhubanesar' wicket='5'></ClassComponent> */}
+      <Main />
     </div>
   );
 }
