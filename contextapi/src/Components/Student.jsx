@@ -1,4 +1,5 @@
 import React, { useReducer } from "react";
+import '../Styles/Student.css'
 const countReducer = (state, action) => {
   switch (action.type) {
     case "inc":
