@@ -1,42 +1,68 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app{
+  /* border: 1px solid #252525; */
+  display: grid;
+  place-items: center;
+}
+.search-sec{
+  margin: 50px auto;
+  border: 1px solid #252525;
+  width: 40%;
+  padding: 3rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  background: linear-gradient(45deg, #18d6d6, #751492, #b81b89,#f30b6c);
 }
+.search-box{
+  display: flex;
+  height: 3rem;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.search-box>input{
+  width: 250px;
+  border-radius: 5px;
+  font-size: 22px;
+  border: none;
+  padding: 1rem;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.search-box>input:focus{
+  outline: none;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-box>input::placeholder{
+  color: #e90808;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.search-box>button{
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 20px;
 }
-
-.card {
-  padding: 2em;
+.weather-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  color: #dfdddd;
 }
-
-.read-the-docs {
-  color: #888;
+.weather-card>img{
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+.details{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
